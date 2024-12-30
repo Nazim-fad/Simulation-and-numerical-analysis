@@ -6,6 +6,10 @@ This project was done as part of the course "Algorithms, Part I" on Coursera. Th
 
 My implementation uses a weighted quick-union algorithm with path compression to model the percolation system, and it is working well except that i am not taking care of the backwash problem because i concidered that the simulation ends when the system percolates and not when all the sites are open. 
 
+## Illustration
+<img src="./assets/OIP.jpg" alt="Percolation" width="500" style="display: block; margin-left: auto; margin-right: auto;">
+
+This image shows a percolation system and it was taken from the course slides on Coursera.
 ## Dependencies
 
 - Java 8
@@ -28,3 +32,8 @@ the first argument is the size of the grid and the second argument is the number
 
 you should get the Monte Carlo simulation results in the console (mean, standard deviation, confidence interval of the percolation threshold).
 
+## TODO
+
+- [] Fix the backwash problem.
+- [] Add a GUI to visualize the percolation system (Using React).
+- [] Try a coupling technique as done in some one tutorial exercises exercise (probability M1).
